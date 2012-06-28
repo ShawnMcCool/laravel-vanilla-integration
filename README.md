@@ -1,5 +1,7 @@
 ## A Vanilla Forums Integration Bundle for Laravel Applications
 
+**Version: 1.0**
+
 [Vanilla Forums](http://vanillaforums.org/) is popular open-source forum software that is basically the best-in-class when it comes to integrating into your site.
 
 ### Feature Overview
@@ -81,3 +83,12 @@ If using JSConnect configure based on your Vanilla Forums settings.
 2. Configure the authentication plugin. Your authentication URL is yoursite.com/forum_authenticate (this can be changed in the bundle's start.php).
 
 3. Give it a go!
+
+### Notes
+
+- I'm sure that some of this could be refactored a bit. I threw this together quick-like and will update it when I can.
+- Community participation would be appreciated.
+- To force Vanilla to clear its authentication cache use the following code to drop its cookies:
+
+    setcookie("Vanilla", "deleted", time() - 1,'/', "", false);
+    setcookie("Vanilla-Volatile", "deleted", time() - 1, '/', "", false);
