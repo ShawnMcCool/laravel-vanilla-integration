@@ -1,3 +1,5 @@
+This repository will soon be deleted. If you'd like to keep the code, please fork the repository. I can also transfer ownership of the repository to you if you prefer. 
+
 ## A Vanilla Forums Integration Bundle for Laravel Applications
 
 **Version: 1.0**
